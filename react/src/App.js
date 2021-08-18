@@ -34,7 +34,7 @@ const App = () => {
 
   
 
-  useState(() => {
+  useEffect(() => {
 
     client.activate();
     return ()=>{
